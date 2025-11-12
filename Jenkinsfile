@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo 'Checking out code from GitHub...'
                 git branch: 'main',
-                    url: 'https://github.com/<youruser>/<yourrepo>.git',
+                    url: 'https://github.com/abheyysaini-ab/jenkins-CI-and-CD.git',
                     credentialsId: 'github-token' // Using Jenkins credentials properly
             }
         }
